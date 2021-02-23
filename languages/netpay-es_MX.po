@@ -1,0 +1,541 @@
+# This file is distributed under the same license as the NetPay package.
+msgid ""
+msgstr ""
+"Project-Id-Version: NetPay Checkout v3.2\n"
+"Report-Msgid-Bugs-To: https://github.com/netpay/netpay-woocommerce/issues\n"
+"POT-Creation-Date: 2017-07-14 13:16:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-02-22 07:30-0600\n"
+"Language-Team: \n"
+"Poedit: \n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_MX\n"
+
+#: includes/gateway/class-netpay-payment-alipay.php:21
+msgid "NetPay Alipay"
+msgstr "NetPay Alipay"
+
+#: includes/gateway/class-netpay-payment-alipay.php:22
+msgid "Accept payment through Alipay"
+msgstr "Aceptar el pago a través de Alipay"
+
+#: includes/gateway/class-netpay-payment-alipay.php:42
+#: includes/gateway/class-netpay-payment-creditcard.php:56
+#: includes/gateway/class-netpay-payment-internetbanking.php:48
+msgid "Enable/Disable"
+msgstr "Habilitar/Deshabilitar"
+
+#: includes/gateway/class-netpay-payment-alipay.php:44
+msgid "Enable NetPay Alipay Payment"
+msgstr "Habilitar pago de NetPay Alipay"
+
+#: includes/gateway/class-netpay-payment-alipay.php:49
+#: includes/gateway/class-netpay-payment-creditcard.php:63
+#: includes/gateway/class-netpay-payment-internetbanking.php:55
+msgid "Title"
+msgstr "Titulo"
+
+#: includes/gateway/class-netpay-payment-alipay.php:51
+#: includes/gateway/class-netpay-payment-creditcard.php:65
+#: includes/gateway/class-netpay-payment-internetbanking.php:57
+msgid "This controls the title which the user sees during checkout."
+msgstr "Esto controla el título que ve el usuario durante el pago."
+
+#: includes/gateway/class-netpay-payment-alipay.php:52
+msgid "Alipay"
+msgstr "Alipay"
+
+#: includes/gateway/class-netpay-payment-alipay.php:56
+#: includes/gateway/class-netpay-payment-creditcard.php:70
+#: includes/gateway/class-netpay-payment-internetbanking.php:62
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/gateway/class-netpay-payment-alipay.php:58
+#: includes/gateway/class-netpay-payment-creditcard.php:72
+#: includes/gateway/class-netpay-payment-internetbanking.php:64
+msgid "This controls the description which the user sees during checkout."
+msgstr "Esto controla la descripción que ve el usuario durante el pago."
+
+#: includes/gateway/class-netpay-payment-alipay.php:76
+#: includes/gateway/class-netpay-payment-creditcard.php:179
+#: includes/gateway/class-netpay-payment-internetbanking.php:92
+msgid ""
+"We cannot process your payment.<br/>Note that nothing wrong by you, this might be "
+"from our store issue.<br/><br/>Please feel free to try submit your order again or "
+"report our support team that you have found this problem (Your temporary order id "
+"is '%s')"
+msgstr ""
+"No podemos procesar su pago. <br/> Tenga en cuenta que no tiene nada de malo, esto "
+"podría deberse a nuestro problema de tienda. <br/> <br/> No dude en intentar enviar "
+"su pedido nuevamente o informar a nuestro equipo de soporte que tiene encontró este "
+"problema (su ID de pedido temporal es ‘% s’)"
+
+#: includes/gateway/class-netpay-payment-alipay.php:88
+msgid "NetPay: Processing a payment with Alipay solution.."
+msgstr "NetPay: Procesando un pago con la solución Alipay."
+
+#: includes/gateway/class-netpay-payment-alipay.php:99
+#: includes/gateway/class-netpay-payment-creditcard.php:289
+#: includes/gateway/class-netpay-payment-internetbanking.php:115
+msgid "NetPay: Charge (ID: %s) has been created"
+msgstr "NetPay: se ha creado el cargo (ID:% s)"
+
+#: includes/gateway/class-netpay-payment-alipay.php:106
+#: includes/gateway/class-netpay-payment-internetbanking.php:122
+msgid "NetPay: Redirecting buyer out to %s"
+msgstr "NetPay: redireccionando al comprador a% s"
+
+#: includes/gateway/class-netpay-payment-alipay.php:122
+#: includes/gateway/class-netpay-payment-internetbanking.php:138
+msgid ""
+"Please feel free to try submit your order again or contact our support team if you "
+"have any questions (Your temporary order id is '%s')"
+msgstr ""
+"No dude en intentar enviar su pedido nuevamente o comuníquese con nuestro equipo de "
+"soporte si tiene alguna pregunta (su ID de pedido temporal es ‘% s’)"
+
+#: includes/gateway/class-netpay-payment-alipay.php:132
+#: includes/gateway/class-netpay-payment-alipay.php:217
+#: includes/gateway/class-netpay-payment-creditcard.php:375
+#: includes/gateway/class-netpay-payment-creditcard.php:566
+#: includes/gateway/class-netpay-payment-internetbanking.php:148
+#: includes/gateway/class-netpay-payment-internetbanking.php:233
+msgid "Seems we cannot process your payment properly:<br/>%s"
+msgstr "Parece que no podemos procesar su pago correctamente: <br/>% s"
+
+#: includes/gateway/class-netpay-payment-alipay.php:142
+#: includes/gateway/class-netpay-payment-creditcard.php:385
+#: includes/gateway/class-netpay-payment-internetbanking.php:158
+msgid "NetPay: Payment failed, %s"
+msgstr "NetPay: pago fallido,% s"
+
+#: includes/gateway/class-netpay-payment-alipay.php:158
+#: includes/gateway/class-netpay-payment-creditcard.php:492
+#: includes/gateway/class-netpay-payment-internetbanking.php:174
+msgid ""
+"We cannot validate your payment result:<br/>Note that your payment might already "
+"has been processed. Please contact our support team if you have any questions."
+msgstr ""
+"No podemos validar el resultado de su pago: <br/> Tenga en cuenta que es posible "
+"que su pago ya se haya procesado. Comuníquese con nuestro equipo de soporte si "
+"tiene alguna pregunta."
+
+#: includes/gateway/class-netpay-payment-alipay.php:168
+#: includes/gateway/class-netpay-payment-creditcard.php:502
+#: includes/gateway/class-netpay-payment-internetbanking.php:184
+msgid "NetPay: Validating the payment result.."
+msgstr "NetPay: Validando el resultado del pago."
+
+#: includes/gateway/class-netpay-payment-alipay.php:180
+msgid ""
+"NetPay: The payment has been processing.<br/>Due to the Alipay process, this might "
+"takes a few seconds or an hour. Please do a manual 'Sync Payment Status' action "
+"from the Order Actions panel or check the payment status directly at NetPay "
+"dashboard again later"
+msgstr ""
+"NetPay: el pago se ha procesado. <br/> Debido al proceso de Alipay, esto puede "
+"tardar unos segundos o una hora. Realice una acción manual ‘Sincronizar estado de "
+"pago’ desde el panel Acciones de pedido o verifique el estado de pago directamente "
+"en el panel de NetPay nuevamente más tarde"
+
+#: includes/gateway/class-netpay-payment-alipay.php:196
+#: includes/gateway/class-netpay-payment-creditcard.php:338
+#: includes/gateway/class-netpay-payment-creditcard.php:531
+#: includes/gateway/class-netpay-payment-internetbanking.php:212
+msgid "NetPay: Payment successful.<br/>An amount %1$s %2$s has been paid"
+msgstr "NetPay: pago exitoso. <br/> Se pagó un monto% 1 $ s% 2 $ s"
+
+#: includes/gateway/class-netpay-payment-alipay.php:212
+#: includes/gateway/class-netpay-payment-creditcard.php:361
+#: includes/gateway/class-netpay-payment-internetbanking.php:228
+msgid ""
+"Note that your payment might already has been processed. Please contact our support "
+"team if you have any questions."
+msgstr ""
+"Tenga en cuenta que es posible que su pago ya se haya procesado. Comuníquese con "
+"nuestro equipo de soporte si tiene alguna pregunta."
+
+#: includes/gateway/class-netpay-payment-alipay.php:228
+#: includes/gateway/class-netpay-payment-creditcard.php:577
+#: includes/gateway/class-netpay-payment-internetbanking.php:244
+msgid "NetPay: Payment failed.<br/>%s"
+msgstr "NetPay: pago fallido. <br/>% s"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:21
+msgid "NetPay Credit / Debit Card"
+msgstr "Pago con tarjeta de crédito y débito"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:23
+msgid ""
+"Accept payment through <strong>Credit / Debit Card</strong> via NetPay payment "
+"gateway."
+msgstr ""
+"Acepte pagos a través de <strong> tarjeta de crédito / débito </strong> a través de "
+"la pasarela de pago NetPay."
+
+#: includes/gateway/class-netpay-payment-creditcard.php:58
+msgid "Enable NetPay Credit / Debit Card Payment"
+msgstr "Habilitar pago con tarjeta de crédito / débito"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:66
+msgid "Credit / Debit Card"
+msgstr "Tarjeta de crédito / débito"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:78
+msgid "Advance Settings"
+msgstr "Configuraciones avanzadas"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:82
+msgid "Payment action"
+msgstr "Acción de pago"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:84
+msgid ""
+"Capture automatically during the checkout process or manually after order has been "
+"placed"
+msgstr ""
+"Capture automáticamente durante el proceso de pago o manualmente después de que se "
+"haya realizado el pedido"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:88
+msgid "Auto Capture"
+msgstr "Captura automática"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:89
+msgid "Manual Capture"
+msgstr "Captura manual"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:94
+msgid "3-D Secure payment"
+msgstr "Pago seguro 3-D"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:96
+msgid ""
+"Enabling 3-D Secure payment means that buyer will be redirected to the 3-D Secure "
+"authorization page during the checkout process."
+msgstr ""
+"Habilitar el pago de 3-D Secure significa que el comprador será redirigido a la "
+"página de autorización de 3-D Secure durante el proceso de pago."
+
+#: includes/gateway/class-netpay-payment-creditcard.php:98
+msgid ""
+"Please be informed that you must contact NetPay support team (support@netpay.co) "
+"before enable or disable this option.<br/> (Japan-based accounts are not eligible "
+"for the service.)"
+msgstr ""
+"Tenga en cuenta que debe comunicarse con el equipo de soporte de NetPay "
+"(support@netpay.com.mx) antes de habilitar o deshabilitar esta opción."
+
+#: includes/gateway/class-netpay-payment-creditcard.php:104
+msgid "Supported card icons"
+msgstr "Iconos de tarjetas compatibles"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:134
+msgid ""
+"This only controls the icons displayed on the checkout page.<br />It is not related "
+"to card processing on NetPay payment gateway."
+msgstr "Configura los tipos de tarjetas que deseas aceptar."
+
+#: includes/gateway/class-netpay-payment-creditcard.php:191
+msgid "NetPay: Processing a payment with Credit Card solution.."
+msgstr "NetPay: Procesando un pago con solución de tarjeta de crédito."
+
+#: includes/gateway/class-netpay-payment-creditcard.php:198
+msgid "Please select an existing card or enter a new card information."
+msgstr ""
+"Seleccione una tarjeta existente o ingrese la información de una nueva tarjeta."
+
+#: includes/gateway/class-netpay-payment-creditcard.php:206
+msgid ""
+"Cannot process with a card that you're using. Please make sure that the card info "
+"is correct or contact our support team if you have any questions."
+msgstr ""
+"No se puede procesar con una tarjeta que estás usando. Asegúrese de que la "
+"información de la tarjeta sea correcta o comuníquese con nuestro equipo de soporte "
+"si tiene alguna pregunta."
+
+#: includes/gateway/class-netpay-payment-creditcard.php:250
+msgid ""
+"Note that nothing wrong by you, this might be from our store issue.<br/><br/>Please "
+"feel free to try submit your order again or report our support team that you have "
+"found this problem (Your temporary order id is '%s')"
+msgstr ""
+"Tenga en cuenta que no tiene nada de malo, esto podría deberse a nuestro problema "
+"de la tienda. <br/> <br/> No dude en intentar enviar su pedido nuevamente o "
+"informar a nuestro equipo de soporte que ha encontrado este problema (su ID de "
+"pedido temporal es % s ‘)"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:303
+msgid "NetPay: Processing with a 3-D Secure payment, redirecting buyer out to %s"
+msgstr ""
+"NetPay: procesamiento con un pago seguro 3-D, redireccionando al comprador a% s"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:320
+#: includes/gateway/class-netpay-payment-creditcard.php:514
+msgid "NetPay: Payment processing.<br/>An amount %1$s %2$s has been authorized"
+msgstr "NetPay: procesamiento de pagos. <br/> Se ha autorizado un monto% 1 $ s% 2 $ s"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:411
+msgid ""
+"We cannot process your refund.<br/>Note that nothing wrong by you, this might be "
+"from the store issue.<br/><br/>Please feel try to create a refund again or report "
+"our support team that you have found this problem"
+msgstr ""
+"No podemos procesar su reembolso. <br/> Tenga en cuenta que no tiene nada de malo, "
+"esto podría deberse al problema de la tienda. <br/> <br/> Intente crear un "
+"reembolso nuevamente o informe a nuestro equipo de soporte que ha encontrado este "
+"problema"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:423
+msgid "NetPay: Refunding a payment with an amount %1$s %2$s"
+msgstr "NetPay: reembolso de un pago con una cantidad% 1 $ s% 2 $ s"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:439
+msgid "NetPay: Voided an amount %1$s %2$s.<br/>Refund id is %3$s"
+msgstr ""
+"NetPay: anuló una cantidad% 1 $ s% 2 $ s. <br/> La identificación de reembolso es% "
+"3 $ s"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:451
+msgid "NetPay: Refunded an amount %1$s %2$s.<br/>Refund id is %3$s"
+msgstr ""
+"NetPay: reembolsó una cantidad% 1 $ s% 2 $ s. <br/> La identificación de reembolso "
+"es% 3 $ s"
+
+#: includes/gateway/class-netpay-payment-creditcard.php:466
+#: includes/gateway/class-netpay-payment-creditcard.php:477
+msgid "NetPay: Refund failed.<br/>%s"
+msgstr "NetPay: reembolso fallido. <br/>% s"
+
+#: includes/gateway/class-netpay-payment-internetbanking.php:21
+msgid "NetPay Internet Banking"
+msgstr "Banca por Internet NetPay"
+
+#: includes/gateway/class-netpay-payment-internetbanking.php:23
+msgid ""
+"Accept payment through <strong>Internet Banking</strong> via NetPay payment gateway "
+"(only available in Thailand)."
+msgstr ""
+"Acepte pagos a través de <strong> Banca por Internet </strong> a través de la "
+"pasarela de pago NetPay (solo disponible en Tailandia)."
+
+#: includes/gateway/class-netpay-payment-internetbanking.php:50
+msgid "Enable NetPay Internet Banking Payment"
+msgstr "Habilitar pago bancario por Internet NetPay"
+
+#: includes/gateway/class-netpay-payment-internetbanking.php:58
+msgid "Internet Banking"
+msgstr "Banca por Internet"
+
+#: includes/gateway/class-netpay-payment-internetbanking.php:104
+msgid "NetPay: Processing a payment with Internet Banking solution.."
+msgstr "NetPay: Procesando un pago con la solución de Banca por Internet."
+
+#: includes/gateway/class-netpay-payment-internetbanking.php:196
+msgid ""
+"NetPay: The payment has been processing.<br/>Due to the Bank process, this might "
+"takes a few seconds or an hour. Please do a manual 'Sync Payment Status' action "
+"from the Order Actions panel or check the payment status directly at NetPay "
+"dashboard again later"
+msgstr ""
+"NetPay: el pago se ha procesado. <br/> Debido al proceso bancario, esto puede "
+"tardar unos segundos o una hora. Realice una acción manual ‘Sincronizar estado de "
+"pago’ desde el panel Acciones de pedido o verifique el estado de pago directamente "
+"en el panel de NetPay nuevamente más tarde"
+
+#: includes/gateway/class-netpay-payment.php:57
+msgid "Payment Settings"
+msgstr "Configuración de pago"
+
+#: includes/gateway/class-netpay-payment.php:61
+msgid "All your keys can be found in NetPay Manager (login required)"
+msgstr ""
+"Todas sus claves se pueden encontrar en NetPay Manager (es necesario iniciar sesión)"
+
+#: includes/gateway/class-netpay-payment.php:73
+msgid "Test mode"
+msgstr "Modo pruebas"
+
+#: includes/gateway/class-netpay-payment.php:75
+msgid ""
+"Enabling test mode means that all your transactions will be performed under the "
+"NetPay test account."
+msgstr ""
+"Habilitar el modo de prueba significa que todas sus transacciones se realizarán "
+"bajo la cuenta de prueba de NetPay."
+
+#: includes/gateway/class-netpay-payment.php:80
+msgid "Public key for test"
+msgstr "Llave pública (Pruebas)"
+
+#: includes/gateway/class-netpay-payment.php:85
+msgid "Secret key for test"
+msgstr "Llave privada (Pruebas)"
+
+#: includes/gateway/class-netpay-payment.php:90
+msgid "Public key for live"
+msgstr "Llave pública (Producción)"
+
+#: includes/gateway/class-netpay-payment.php:95
+msgid "Secret key for live"
+msgstr "Llave privada (Producción)"
+
+#: includes/gateway/class-netpay-payment.php:261
+msgid ""
+"NetPay: Payment successful (manual capture).<br/>An amount %1$s %2$s has been paid"
+msgstr "NetPay: pago exitoso (captura manual). <br/> Se pagó un monto% 1 $ s% 2 $ s"
+
+#: includes/gateway/class-netpay-payment.php:273
+msgid "NetPay: Payment failed (manual capture).<br/>%s"
+msgstr "NetPay: pago fallido (captura manual). <br/>% s"
+
+#: includes/gateway/class-netpay-payment.php:312
+msgid "NetPay: Payment failed.<br/>%s (code: %s) (manual sync)."
+msgstr "NetPay: pago fallido. <br/>% s (código:% s) (sincronización manual)."
+
+#: includes/gateway/class-netpay-payment.php:326
+msgid ""
+"NetPay: Payment is still in progress.<br/>You might wait for a moment before click "
+"sync the status again or contact NetPay support team at support@netpay.co if you "
+"have any questions (manual sync)."
+msgstr ""
+"NetPay: el pago aún está en curso. <br/> Puede esperar un momento antes de hacer "
+"clic en sincronizar el estado nuevamente o comunicarse con el equipo de soporte de "
+"NetPay en support@netpay.co si tiene alguna pregunta (sincronización manual)."
+
+#: includes/gateway/class-netpay-payment.php:337
+msgid ""
+"NetPay: Payment successful.<br/>An amount %1$s %2$s has been paid (manual sync)."
+msgstr ""
+"NetPay: pago exitoso. <br/> Se pagó una cantidad% 1 $ s% 2 $ s (sincronización "
+"manual)."
+
+#: includes/gateway/class-netpay-payment.php:353
+msgid ""
+"Cannot read the payment status. Please try sync again or contact NetPay support "
+"team at support@netpay.co if you have any questions."
+msgstr ""
+"No se puede leer el estado del pago. Intente sincronizar nuevamente o comuníquese "
+"con el equipo de soporte de NetPay en support@netpay.com.mx si tiene alguna "
+"pregunta."
+
+#: includes/gateway/class-netpay-payment.php:359
+msgid "NetPay: Sync failed (manual sync).<br/>%s (manual sync)."
+msgstr ""
+"NetPay: Error de sincronización (sincronización manual). <br/>% s (sincronización "
+"manual)."
+
+#: netpay-woocommerce.php:111
+msgid "NetPay: Capture this order"
+msgstr "NetPay: capturar este pedido"
+
+#: netpay-woocommerce.php:114
+msgid "NetPay: Manual sync payment status"
+msgstr "NetPay: estado de pago de sincronización manual"
+
+#: templates/payment/form-creditcard.php:2
+msgid "Card number"
+msgstr "No. tarjeta débito o crédito"
+
+#: templates/payment/form-creditcard.php:9
+msgid "Name on card"
+msgstr "Nombre del tarjetahabiente"
+
+#: templates/payment/form-creditcard.php:11
+msgid "FULL NAME"
+msgstr "NOMBRE COMPLETO"
+
+#: templates/payment/form-creditcard.php:15
+msgid "Expiration month"
+msgstr "Mes de expiración"
+
+#: templates/payment/form-creditcard.php:17
+msgid "MM"
+msgstr "MM"
+
+#: templates/payment/form-creditcard.php:20
+msgid "Expiration year"
+msgstr "Año de vencimiento"
+
+#: templates/payment/form-creditcard.php:22
+msgid "YYYY"
+msgstr "AA"
+
+#: templates/payment/form-creditcard.php:26
+msgid "Security code"
+msgstr "Código de seguridad"
+
+#: templates/payment/form-internetbanking.php:11
+msgid "Siam Commercial Bank"
+msgstr "Banco Comercial de Siam"
+
+#: templates/payment/form-internetbanking.php:12
+msgid "Fee: 15 THB (same zone), 30 THB (out zone)"
+msgstr "Tarifa: 15 THB (misma zona), 30 THB (zona de salida)"
+
+#: templates/payment/form-internetbanking.php:25
+msgid "Krungthai Bank"
+msgstr "Banco Krungthai"
+
+#: templates/payment/form-internetbanking.php:26
+#: templates/payment/form-internetbanking.php:40
+msgid "Fee: 15 THB (same zone), 15 THB (out zone)"
+msgstr "Tarifa: 15 THB (misma zona), 15 THB (zona de salida)"
+
+#: templates/payment/form-internetbanking.php:39
+msgid "Krungsri Bank"
+msgstr "Krungsri Bank"
+
+#: templates/payment/form-internetbanking.php:53
+msgid "Bangkok Bank"
+msgstr "banco de Bangkok"
+
+#: templates/payment/form-internetbanking.php:54
+msgid "Fee: 10 THB (same zone), 20 THB (out zone)"
+msgstr "Fee: 10 THB (same zone), 20 THB (out zone)"
+
+#: templates/payment/form.php:5
+msgid "Use an existing card"
+msgstr "Usa una tarjeta existente"
+
+#: templates/payment/form.php:22
+msgid "Create a charge using new card"
+msgstr "Crear un cargo con una tarjeta nueva"
+
+#: templates/payment/form.php:36
+msgid "Remember this card"
+msgstr "Recuerda esta tarjeta"
+
+#. Plugin Name of the plugin/theme
+msgid "NetPay Checkout"
+msgstr "NetPay Checkout"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.netpay.co/woocommerce"
+msgstr "https://www.netpay.mx/e-commerce/"
+
+#. Description of the plugin/theme
+msgid ""
+"NetPay WooCommerce Gateway Plugin is a wordpress plugin designed specifically for "
+"WooCommerce. The plugin adds support for NetPay Payment Gateway payment method to "
+"WooCommerce."
+msgstr ""
+"NetPay Checkout es un complemento de Wordpress diseñado específicamente para "
+"WooCommerce. El complemento agrega soporte para el método de pago NetPay Checkout a "
+"WooCommerce."
+
+#. Author of the plugin/theme
+msgid "NetPay"
+msgstr "NetPay"
+
+#. Author URI of the plugin/theme
+msgid "https://www.netpay.co"
+msgstr "https://www.netpay.mx"

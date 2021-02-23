@@ -1,0 +1,84 @@
+.netpay-billpayment-tesco-print-details,
+.netpay-billpayment-tesco-print-order-overview {
+    display: none;
+}
+
+@media print {
+    body * {
+        display: none;
+    }
+
+    body .netpay-billpayment-tesco-print-details {
+        display: block;
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .netpay-billpayment-tesco-print-details * {
+        display: block;
+        width: auto;
+        margin: auto;
+    }
+
+    .netpay-billpayment-tesco-print-button {
+        display: none;
+    }
+
+    /**
+     * Reset elements for printing screen.
+     */
+    .netpay-billpayment-tesco-print-details h1,
+    .netpay-billpayment-tesco-print-details h2,
+    .netpay-billpayment-tesco-print-details h3,
+    .netpay-billpayment-tesco-print-details p {
+        width: 100%;
+    }
+
+    .netpay-billpayment-tesco-print-details strong,
+    .netpay-billpayment-tesco-print-details small,
+    .netpay-billpayment-tesco-print-details span,
+    .netpay-billpayment-tesco-print-details del,
+    .netpay-billpayment-tesco-print-details ins {
+        display: inline;
+    }
+    /** END reset elements. **/
+
+    .netpay-billpayment-tesco-print-order-overview {
+        margin: 6em 0 2em 0;
+    }
+
+    .netpay-billpayment-tesco-print-order-overview > div {
+        float: left;
+        width: 50%;
+        padding: 1em 0;
+    }
+
+    .netpay-billpayment-tesco-print-order-overview strong {
+        font-size: 115%;
+    }
+
+    .netpay-billpayment-tesco-print-order-overview::after {
+        visibility: hidden;
+        display: block;
+        height: 0;
+        content: ".";
+        clear: both;
+    }
+
+    .netpay-billpayment-tesco-barcode-wrapper {
+        margin: 1em 0;
+    }
+
+    .netpay-billpayment-tesco-barcode {
+        display: inline-block;
+    }
+
+    .netpay-billpayment-tesco-footnote {
+        width: 90%;
+        margin: 4em auto;
+        text-align: right;
+        font-size: 85%;
+    }
+}

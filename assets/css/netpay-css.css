@@ -1,0 +1,270 @@
+.form-row.netpay-label-inline label,
+.netpay-label-inline label,
+label.netpay-label-inline {
+	display: inline-block;
+}
+
+.netpay-remember-card input,
+.netpay-remember-card label {
+	display: inline-block;
+}
+
+.netpay-customer-card-list {
+	padding-bottom: .75em;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 1px 1px #fff;
+}
+
+#label-new_card_info h3 {
+	margin-top: .75em;
+	display: inline-block;
+}
+
+fieldset.card-exists {
+	display: none;
+}
+
+#new_card_info:checked ~ fieldset.card-exists {
+	display: block;
+}
+
+/**
+ * 1). Specific style
+ * (usually designed specifically for only one purpose).
+ */
+#payment .payment_methods li .payment_box fieldset#netpay-form-installment,
+#payment .payment_methods li .payment_box fieldset#netpay-form-internetbanking {
+	padding: 0;
+}
+
+.netpay-banks-list .installment-term-select-box {
+	width: 8rem;
+	border: 1px solid #d4d4d4;
+	font-size: 80%;
+}
+
+#payment .payment_methods li .payment_box fieldset#netpay-form-installment .netpay-buttom-note {
+	margin-top: 4em;
+}
+
+#payment .payment_methods li .payment_box fieldset#netpay-form-installment .netpay-installment-interest-rate {
+	color: #aaa;
+	font-size: 80%;
+	line-height: 1;
+}
+
+/**
+ * NetPay Bill Payment Tesco
+ * CSS for the 'Thank You' (order-received) page.
+ */
+.netpay-konbini-details,
+.netpay-billpayment-tesco-details {
+	margin-bottom: 4em;
+	text-align: center;
+}
+.netpay-billpayment-tesco-barcode {
+	display: inline-block;
+}
+.netpay-billpayment-tesco-print-button {
+	margin-top: 2em;
+}
+.netpay-konbini-footnote,
+.netpay-billpayment-tesco-footnote {
+	margin-top: 4em;
+	padding: 1em;
+	font-size: 85%;
+	text-align: left;
+	background-color: #f8f8f8;
+}
+.netpay-billpayment-tesco-footnote p {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * NetPay PayNow
+ */
+.netpay-paynow-details {
+	margin-bottom: 4em;
+	text-align: center;
+}
+.netpay-paynow-details img {
+	margin: auto;
+}
+.netpay-paynow-logo {
+	background: url('../images/paynow.png');
+	background-size: cover;
+	width: 200px;
+	height: 51px;
+	margin: auto;
+}
+
+/**
+ * 2). Components
+ * (stylesheets that are designed generally and may be commonly used as a component).
+ */
+/**
+ * 2.1). Typography
+ */
+.netpay-secondary-text {
+	color: #aaa;
+	font-size: 80%;
+}
+
+/**
+ * 2.2). Components
+ */
+.netpay-buttom-note {
+	margin-top: 2em;
+	color: #aaa;
+	font-size: 80%;
+}
+
+.netpay-additional-payment-details-box {
+	margin-bottom: 4em;
+	text-align: center;
+}
+
+/**
+ * 2.3). Form, bank list components
+ */
+ul.netpay-banks-list {
+	margin: 0;
+}
+
+.netpay-banks-list input[type="radio"] + label::before {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+.netpay-banks-list .item {
+	position: relative;
+	padding: 14px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.netpay-banks-list .item:first-child {
+	padding-top: 0;
+}
+
+.netpay-banks-list .item > input {
+	position: absolute;
+	top: 28px;
+	left: 8px;
+}
+
+.netpay-banks-list .item:first-child > input {
+	top: 14px;
+}
+
+.netpay-banks-list .item > label {
+	display: inline-block;
+	padding: 0 0 0 32px;
+	cursor: pointer;
+	position: relative;
+}
+
+.netpay-banks-list .bank-label {
+	display: inline-block;
+	width: 180px;
+	vertical-align: top;
+}
+
+.netpay-banks-list .bank-logo {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-top: 4px;
+	border-radius: 2px;
+	border: 4px solid #fff;
+}
+
+/** Media Quries **/
+@media all and (min-width: 375px) {
+	ul.netpay-banks-list {
+		margin: 0 0 0 1.75em;
+	}
+
+	.netpay-banks-list .item > input {
+		left: 3.5px;
+	}
+
+	.netpay-banks-list .bank-label {
+		padding-left: 8px;
+	}
+}
+
+@media all and (min-width: 768px) {
+	ul.netpay-banks-list {
+		margin: 0;
+	}
+
+	.netpay-banks-list .bank-label {
+		padding-left: 0px;
+		width: auto;
+	}
+}
+
+@media all and (min-width: 1024px) {
+	ul.netpay-banks-list {
+		margin: 0 0 0 1.75em;
+	}
+
+	.netpay-banks-list .bank-label {
+		padding-left: 8px;
+		width: 148px;
+	}
+}
+
+@media all and (min-width: 1280px) {
+	.netpay-banks-list .bank-label {
+		width: 180px;
+	}
+}
+
+/**
+ * 2.4). Bank logos
+ */
+/** BAY **/
+.bank-logo.banorte {
+	background: url('../images/cash/banorte.png') #fec43b;
+	border-color: #fec43b;
+	width: 180px;
+}
+
+/** BBL **/
+.bank-logo.bbl {
+	background: url('../images/bbl.svg') #1e4598;
+	border-color: #1e4598;
+}
+
+/** First Choice **/
+.bank-logo.first_choice {
+	background: url('../images/firstchoice.svg') #007bc4;
+	border-color: #007bc4;
+}
+
+/** KBANK **/
+.bank-logo.kbank {
+	background: url('../images/kbank.svg') #ffffff;
+	border-color: #ffffff;
+}
+
+/** KTB **/
+.bank-logo.ktb {
+	background: url('../images/ktb.svg') #1ba5e1;
+	border-color: #1ba5e1;
+}
+
+/** KTC **/
+.bank-logo.ktc {
+	background: url('../images/ktc.svg') #ffffff;
+	border-color: #ffffff;
+}
+
+/** SCB **/
+.bank-logo.scb {
+	background: url('../images/scb.svg') #4e2e7f;
+	border-color: #4e2e7f;
+}

@@ -1,0 +1,9 @@
+{
+    "name": "netpay/netpay-woocommerce",
+    "description": "An official payment extension which provides support for NetPay payment gateway for store builders working on the WooCommerce platform.",
+    "homepage": "https://www.netpay.co/",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    }
+}
